@@ -116,7 +116,7 @@ body {
     transform: rotateY(180deg);
   }
   .hiddenn{
-    visibility: hidden;
+    overflow:hidden;
   }
   .buttton{
     background-image:url('WhatsApp\ Image\ 2025-05-24\ at\ 19.30.22.jpeg');
