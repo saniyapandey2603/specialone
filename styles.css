@@ -116,6 +116,7 @@ body {
     transform: rotateY(180deg);
   }
   .hiddenn{
+      position :absolute;
       
       pointer -events:none;
       width:1px;
