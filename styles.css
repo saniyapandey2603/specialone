@@ -117,10 +117,10 @@ body {
   }
   .hiddenn{
       position :absolute;
-      left:-9999px;
+      pointer -events:none;
       width:1px;
       height:1px;
-    overflow:hidden;
+    opacity:0;
   }
   .buttton{
     background-image:url('WhatsApp\ Image\ 2025-05-24\ at\ 19.30.22.jpeg');
