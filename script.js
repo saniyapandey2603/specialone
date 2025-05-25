@@ -6,7 +6,7 @@ function flipCard() {
     document.getElementById('flipCard').classList.toggle('flipped');
 }  
   document.addEventListener('click', () => {
-    const audio = document.querySelector('.hiddenn');
+    const audio = document.querySelector('.container');
     if (audio && audio.paused) {
       audio.play().catch(e => console.log("Autoplay blocked:", e));
     }
